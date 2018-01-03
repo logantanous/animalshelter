@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+.logo {
+  margin: 0 auto;
+  position: relative;
+  display:block;
+}
+
+#myCarousel {
+  margin-top: 70px;
+}
+
+.first-slide {
+  max-height:513px !important;
+  width: 309px;
+  min-width: 309px;
+}
+
+.carousel-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#big1 {background-image: url("https://www.americanhumane.org/app/uploads/2016/08/shutterstock_147554699.jpg");}
+
+#big2 {background-image: url("https://pupjournal.com/wp-content/uploads/2016/08/happy-shelter-dog.jpg");}
+
+#big3 {background-image: url("https://media0.giphy.com/media/vFKqnCdLPNOKc/giphy.gif");}
