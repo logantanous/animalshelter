@@ -4,12 +4,16 @@ header {
   left: 0px;
   top: 0px;
   z-index: 100;
+  pointer-events: none;
+  cursor: default;
 }
 
 .logo {
   margin: 0 auto;
   position: relative;
   display:block;
+  pointer-events: all;
+  cursor: pointer;
 }
 
 #myCarousel {
@@ -28,8 +32,19 @@ header {
   background-position: 50% 50%;
 }
 
+.carousel-caption {
+  color: #fff;
+  text-shadow: .5px 0 0 #000, 0 -.5px 0 #000, 0 .5px 0 #000, -.5px 0 0 #000;
+}
+
 #big1 {background-image: url("https://www.americanhumane.org/app/uploads/2016/08/shutterstock_147554699.jpg");}
 
 #big2 {background-image: url("https://pupjournal.com/wp-content/uploads/2016/08/happy-shelter-dog.jpg");}
 
 #big3 {background-image: url("https://media0.giphy.com/media/vFKqnCdLPNOKc/giphy.gif");}
+
+#myCarousel {
+  margin-bottom: 0;
+}
+
+div.marketing {margin-top:4em;}
