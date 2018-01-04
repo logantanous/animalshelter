@@ -48,3 +48,21 @@ header {
 }
 
 div.marketing {margin-top:4em;}
+
+.imagenostretch {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#column-image {
+  background-image: url("https://iso.500px.com/wp-content/uploads/2014/05/2048-25-1500x1000.jpg");
+}
+
+#colm-image {
+  background-image: url("https://iso.500px.com/wp-content/uploads/2015/02/sleeping_cover.jpeg");
+}
+
+#image3 {
+  background-image: url("https://iso.500px.com/wp-content/uploads/2015/10/Tip-5.jpg");
+}
